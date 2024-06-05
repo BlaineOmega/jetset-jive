@@ -159,6 +159,6 @@ const Team = () => {
       {/* END HOME */}
     </>
   );
-}
+};
 
 export default Team;
