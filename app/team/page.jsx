@@ -1,4 +1,4 @@
-import Team from "@/components/team/Team";
+import Team from "@/components/team";
 import Sidebar from "@/components/sidebar/Sidebar";
 
 export const metadata = {
