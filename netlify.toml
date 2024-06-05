@@ -1,0 +1,2 @@
+ command = "ls -la && npm run build && ls -la"
+  publish = "build"
