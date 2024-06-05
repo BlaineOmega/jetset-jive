@@ -1,2 +1,6 @@
- command = "ls -la && npm run build && ls -la"
+[build]
+  command = "yarn build"
   publish = "build"
+
+[build.environment]
+  YARN_VERSION = "1.22.22"
