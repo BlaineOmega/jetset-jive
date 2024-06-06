@@ -119,7 +119,9 @@ module.exports = [
           </ul>
         </p>
         <p>
-          <strong>User Scenario:</strong> David plans frequent business trips nationwide, prioritizing preferred airlines and hotels to maximize corporate credit card benefits. He seeks dining venues suitable for business meetings in each city he visits. David would love an app that will assist in travel booking, suggest professional dining options, and offer wardrobe recommendations tailored to different climates and business attire standards.
+          <strong>User Scenario:</strong> David plans frequent business trips nationwide, 
+          prioritizing preferred airlines and hotels to maximize corporate credit card benefits. He seeks
+           dining venues suitable for business meetings in each city he visits. David would love an app that will assist in travel booking, suggest professional dining options, and offer wardrobe recommendations tailored to different climates and business attire standards.
         </p>
 
 
@@ -191,35 +193,29 @@ module.exports = [
   {
     id: 6,
     no: "06",
-    title: "Site map",
-    text: `Web development is the most famous job in the world and it is very
-    interesting...`,
-    largeImg: "/img/news/2.jpg",
-    largeTitle: "Mobile App a new tool that enables direct video hosting",
-    poster: "HASAN ALI",
+    title: "Site Map",
+    text: `There is our app's site map.`,
+    largeImg: "/img/news/sitemap.png",
+    poster: "Chloe Chen",
     date: "09 APRIL 2021",
     descriptions: (
       <>
         <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now so we can
-          remember them when it is all over.
+          This is a map of the different pages in our app. We have a login in the upper right where users would set up their preferences and then we have a flow for each major section of our app which are deciding flights, hotels, restaurants, outfits, and a profile page.
         </p>
+        <img src="/img/news/sitemap.png" alt="Site Map" style={{ width: '100%', height: 'auto' }} />
         <p>
-          Pretend everything is new and that you haven’t seen it before, and
-          then you will be free to notice the leading lines, the places where
-          one edge meets another in delightful geometric harmony, and how the
-          ordinary things in the kitchen are transformed when the light is on or
-          off.
+          The app structure is as follows:
         </p>
-        <p>
-          The trick here is to look slowly, and then look again. Take the time
-          to look in detail and to look at the same thing from different angles,
-          with different light, long lenses and wide lenses. Then move to the
-          left a bit. You may never feel the need to leave the house again.
-        </p>
+        <ul>
+          <li><strong>Welcome and Login:</strong> Users start with a welcome screen, proceed to login, and set up their preferences including user info, dining preferences, travel preferences, fashion preferences, and credit preferences.</li>
+          <li><strong>Home:</strong> This is the main dashboard with navigation to all major sections of the app.</li>
+          <li><strong>Flight Search:</strong> Users can search for flights by selecting the date, time, and location, choosing departing and returning flights, reviewing flight details, and completing the payment.</li>
+          <li><strong>Hotel Booking:</strong> Users can search for hotels, view hotel information, and book their stay.</li>
+          <li><strong>Dining Home:</strong> Users can search for restaurants, view restaurant details, and filter options by distance, cost, and rating.</li>
+          <li><strong>E-closet Management:</strong> This includes managing outfits for trips, viewing planned outfits, and editing outfits. Users can upload images, take pictures, and manage their outfit lists.</li>
+          <li><strong>My Account:</strong> Users can manage their travel, dining, and fashion preferences from their account settings.</li>
+        </ul>
       </>
     ),
   },
