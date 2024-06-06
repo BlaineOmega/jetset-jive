@@ -24,26 +24,18 @@ module.exports = [
     no: "02",
     title: "Sketches",
     text: `It's easier to draw things before you build them`,
-    largeImg: "/img/news/2.jpg",
+    largeImg: "/img/news/sketchHeader.png",
     largeTitle: "Creating hand drawn sketches helped with our process",
-    poster: "Chloe",
+    poster: "Chloe Chen",
     date: "05 June 2024",
     descriptions: (
       <>
         <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now so we can
-          remember them when it is all over.
+          These are some of our sketches. This was where we brainstormed some basic ideas for our app. We created a large number of sketches and narrowed it down to the designs we liked. These sketches would eventually be modified throughout the process to fit the user’s needs.
         </p>
-        
-        <p>
-          The trick here is to look slowly, and then look again. Take the time
-          to look in detail and to look at the same thing from different angles,
-          with different light, long lenses and wide lenses. Then move to the
-          left a bit. You may never feel the need to leave the house again.
-        </p>
+        <img src="/img/news/sketch1.png" alt="Sketch 1" style={{ width: '100%', height: 'auto' }} />
+        <img src="/img/news/sketch2.png" alt="Sketch 2" style={{ width: '100%', height: 'auto' }} />
+
         <p>
           One of the key features we focused on was the outfit planning for our travel app. Below is a sketch of the outfit planning screen:
         </p>
@@ -134,32 +126,24 @@ module.exports = [
     no: "04",
     title: "Paper Prototypes",
     text: `Paper prototypes was an interesting exercise`,
-    largeImg: "/img/news/4.jpg",
+    largeImg: "/img/news/paperPrototype.png",
     largeTitle: "Time for arts and crafts...",
-    poster: "SHIKA VAIL",
-    date: "12 APRIL 2021",
+    poster: "Chloe Chen",
+    date: "05 June 2024",
     descriptions: (
       <>
-        <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now so we can
-          remember them when it is all over.
+       <p>
+          Here are our paper prototypes which simulate how some of the main processes in our app would work. Here we made it interactive with buttons and popups to show users how our app would function. We would then receive feedback on how well our interactions are and improve them to cater more to our audience.
+    
+          E-Closet: <a href="https://imgur.com/a/e-closet-t2Tm9Qh">https://imgur.com/a/e-closet-t2Tm9Qh</a>
         </p>
         <p>
-          Pretend everything is new and that you haven’t seen it before, and
-          then you will be free to notice the leading lines, the places where
-          one edge meets another in delightful geometric harmony, and how the
-          ordinary things in the kitchen are transformed when the light is on or
-          off.
+          User Preference: <a href="https://imgur.com/a/book-flight-LDGoShP">https://imgur.com/a/book-flight-LDGoShP</a>
         </p>
         <p>
-          The trick here is to look slowly, and then look again. Take the time
-          to look in detail and to look at the same thing from different angles,
-          with different light, long lenses and wide lenses. Then move to the
-          left a bit. You may never feel the need to leave the house again.
+          User preferences: <a href="https://imgur.com/a/onboarding-user-preferences-a9NeAjX">https://imgur.com/a/onboarding-user-preferences-a9NeAjX</a>
         </p>
+        
       </>
     ),
   },
@@ -168,25 +152,19 @@ module.exports = [
     no: "05",
     title: "Wireframes",
     text: `Building wireframes allowed us to better layout our application...`,
-    largeImg: "/img/news/1.jpg",
-    largeTitle: "After Effects a new tool that enables direct video hosting",
-    poster: "JIJA ZORIA",
-    date: "05 APRIL 2021",
+    largeImg: "/img/news/wireFrameExample.png", // Update with correct path
+    largeTitle: "Wireframes",
+    poster: "Chloe Chen",
+    date: "05 June 2024",
     descriptions: (
       <>
         <p>
-          Pretend everything is new and that you haven’t seen it before, and
-          then you will be free to notice the leading lines, the places where
-          one edge meets another in delightful geometric harmony, and how the
-          ordinary things in the kitchen are transformed when the light is on or
-          off.
+          This is the step where we had some more detailed versions of our app. We have all the different pages laid out with the general text inputs, button sizes, and the overall structure of each page. We kept things simple with using mainly different shades of black and white so that we could focus on the shape and appearance of different pages of our app.
         </p>
         <p>
-          The trick here is to look slowly, and then look again. Take the time
-          to look in detail and to look at the same thing from different angles,
-          with different light, long lenses and wide lenses. Then move to the
-          left a bit. You may never feel the need to leave the house again.
+          Wireframes: <a href="https://www.figma.com/design/QlNQteHVcHLBrOAsVZ4y3Y/JetsetJive-WireFrames?node-id=88-3022&t=tAWOXVHIltjMYqgn-1">https://www.figma.com/design/QlNQteHVcHLBrOAsVZ4y3Y/JetsetJive-WireFrames?node-id=88-3022&t=tAWOXVHIltjMYqgn-1</a>
         </p>
+        <img src="/img/news/wireFrameExample.png" alt="Wireframes" style={{ width: '100%', height: 'auto' }} />
       </>
     ),
   },
