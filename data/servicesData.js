@@ -24,25 +24,26 @@ module.exports = [
     no: "02",
     title: "Sketches",
     text: `It's easier to draw things before you build them`,
-    largeImg: "/img/news/2.jpg",
+    largeImg: "/img/news/sketchHeader.png",
     largeTitle: "Creating hand drawn sketches helped with our process",
-    poster: "Blaine",
+    poster: "Chloe Chen",
     date: "05 June 2024",
     descriptions: (
       <>
         <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now so we can
-          remember them when it is all over.
+          These are some of our sketches. This was where we brainstormed some basic ideas for our app. We created a large number of sketches and narrowed it down to the designs we liked. These sketches would eventually be modified throughout the process to fit the user’s needs.
         </p>
+        <img src="/img/news/sketch1.png" alt="Sketch 1" style={{ width: '100%', height: 'auto' }} />
+        <img src="/img/news/sketch2.png" alt="Sketch 2" style={{ width: '100%', height: 'auto' }} />
+
         <p>
-          The trick here is to look slowly, and then look again. Take the time
-          to look in detail and to look at the same thing from different angles,
-          with different light, long lenses and wide lenses. Then move to the
-          left a bit. You may never feel the need to leave the house again.
+          One of the key features we focused on was the outfit planning for our travel app. Below is a sketch of the outfit planning screen:
         </p>
+        <img src="/img/news/outfit-sketch.jpg" alt="Outfit Planning Sketch" style={{ width: '100%', height: 'auto' }} />
+        <p>
+          This feature allows users to view suggested outfits for each day of their trip based on their itinerary and weather forecasts. Users can confirm the suggested outfit or edit it to better match their preferences. Once confirmed, the outfit is added to the packing list, ensuring that users have everything they need for their trip.
+        </p>
+
       </>
     ),
   },
@@ -51,60 +52,98 @@ module.exports = [
     no: "03",
     title: "Personas",
     text: `Who are we building this app for?`,
-    largeImg: "/img/news/3.jpg",
-    largeTitle: "Brand Identity a new tool that enables direct video hosting",
-    poster: "NIRO AKTA",
-    date: "15 APRIL 2021",
+    largeImg: "/img/news/persona0.png",
+    largeTitle: "Our Persona",
+    poster: "Chloe",
+    date: "05 June 2024",
     descriptions: (
       <>
+      
         <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now so we can
-          remember them when it is all over.
+          Our primary persona is Juliana Silva, a recruiter at Amazon. She is 28 years old and lives in Los Angeles, CA.
+        </p>
+        <img src="/img/news/persona1.png" alt="Juliana Silva Persona" style={{ width: '100%', height: 'auto' }} />
+        <p>
+          <strong>Bio:</strong> Juliana holds a Bachelor's degree in Fashion Marketing. She is single and often travels with friends or for fashion events. Her interests include fashion, leisure travel, photography, and foodie adventures.
         </p>
         <p>
-          Pretend everything is new and that you haven’t seen it before, and
-          then you will be free to notice the leading lines, the places where
-          one edge meets another in delightful geometric harmony, and how the
-          ordinary things in the kitchen are transformed when the light is on or
-          off.
+          <strong>Goals:</strong>
+          <ul>
+            <li>To discover and experience new cultures with a stylish approach.</li>
+            <li>To find unique dining experiences that are both authentic and visually appealing.</li>
+            <li>To always be appropriately dressed for the weather, occasion, and local fashion trends.</li>
+            <li>To maximize credit card points when purchasing travel.</li>
+          </ul>
         </p>
+        <p>
+          <strong>Pain Points:</strong>
+          <ul>
+            <li>Managing multiple apps for different aspects of travel planning.</li>
+            <li>Finding authentic local fashion advice for each destination.</li>
+            <li>Locating dining experiences that are as much about the atmosphere as they are about the food.</li>
+          </ul>
+        </p>
+        <p>
+          <strong>User Scenario:</strong> Juliana is preparing for a stylish week-long trip to Milan, where she'll enjoy fashion shows, boutique shopping, and local cuisine. She seeks chic yet practical outfits adaptable to Milan's changing spring weather. Additionally, she desires an app providing fashion tips, aligning with Milanese trends, and suggesting trendy dining spots.
+        </p>
+  
+        <p>
+          Our secondary persona is David Mac, a corporate lawyer. He is 49 years old and lives in New York, NY.
+        </p>
+        <img src="/img/news/persona2.png" alt="David Mac Persona" style={{ width: '100%', height: 'auto' }} />
+        <p>
+          <strong>Bio:</strong> David has a J.D. from a top law school. He is married with no children and enjoys business-related travel, networking, and professional development.
+        </p>
+        <p>
+          <strong>Goals:</strong>
+          <ul>
+            <li>To plan and execute business trips with minimal disruption to his busy schedule.</li>
+            <li>To maintain a polished and professional image through well-chosen business attire.</li>
+            <li>To capitalize on credit card benefits to make the most of travel expenses.</li>
+          </ul>
+        </p>
+        <p>
+          <strong>Pain Points:</strong>
+          <ul>
+            <li>Inconvenience of using separate platforms for flight bookings, accommodations, and dining reservations.</li>
+            <li>Last-minute changes to travel plans causing financial penalties.</li>
+            <li>Ensuring wardrobe choices are appropriate for varying business contexts and climates.</li>
+          </ul>
+        </p>
+        <p>
+          <strong>User Scenario:</strong> David plans frequent business trips nationwide, 
+          prioritizing preferred airlines and hotels to maximize corporate credit card benefits. He seeks
+           dining venues suitable for business meetings in each city he visits. David would love an app that will assist in travel booking, suggest professional dining options, and offer wardrobe recommendations tailored to different climates and business attire standards.
+        </p>
+
+
       </>
     ),
   },
+
   {
     id: 4,
     no: "04",
     title: "Paper Prototypes",
     text: `Paper prototypes was an interesting exercise`,
-    largeImg: "/img/news/4.jpg",
+    largeImg: "/img/news/paperPrototype.png",
     largeTitle: "Time for arts and crafts...",
-    poster: "SHIKA VAIL",
-    date: "12 APRIL 2021",
+    poster: "Chloe Chen",
+    date: "05 June 2024",
     descriptions: (
       <>
-        <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now so we can
-          remember them when it is all over.
+       <p>
+          Here are our paper prototypes which simulate how some of the main processes in our app would work. Here we made it interactive with buttons and popups to show users how our app would function. We would then receive feedback on how well our interactions are and improve them to cater more to our audience.
+    
+          E-Closet: <a href="https://imgur.com/a/e-closet-t2Tm9Qh">https://imgur.com/a/e-closet-t2Tm9Qh</a>
         </p>
         <p>
-          Pretend everything is new and that you haven’t seen it before, and
-          then you will be free to notice the leading lines, the places where
-          one edge meets another in delightful geometric harmony, and how the
-          ordinary things in the kitchen are transformed when the light is on or
-          off.
+          User Preference: <a href="https://imgur.com/a/book-flight-LDGoShP">https://imgur.com/a/book-flight-LDGoShP</a>
         </p>
         <p>
-          The trick here is to look slowly, and then look again. Take the time
-          to look in detail and to look at the same thing from different angles,
-          with different light, long lenses and wide lenses. Then move to the
-          left a bit. You may never feel the need to leave the house again.
+          User preferences: <a href="https://imgur.com/a/onboarding-user-preferences-a9NeAjX">https://imgur.com/a/onboarding-user-preferences-a9NeAjX</a>
         </p>
+        
       </>
     ),
   },
@@ -113,60 +152,48 @@ module.exports = [
     no: "05",
     title: "Wireframes",
     text: `Building wireframes allowed us to better layout our application...`,
-    largeImg: "/img/news/1.jpg",
-    largeTitle: "After Effects a new tool that enables direct video hosting",
-    poster: "JIJA ZORIA",
-    date: "05 APRIL 2021",
+    largeImg: "/img/news/wireFrameExample.png", // Update with correct path
+    largeTitle: "Wireframes",
+    poster: "Chloe Chen",
+    date: "05 June 2024",
     descriptions: (
       <>
         <p>
-          Pretend everything is new and that you haven’t seen it before, and
-          then you will be free to notice the leading lines, the places where
-          one edge meets another in delightful geometric harmony, and how the
-          ordinary things in the kitchen are transformed when the light is on or
-          off.
+          This is the step where we had some more detailed versions of our app. We have all the different pages laid out with the general text inputs, button sizes, and the overall structure of each page. We kept things simple with using mainly different shades of black and white so that we could focus on the shape and appearance of different pages of our app.
         </p>
         <p>
-          The trick here is to look slowly, and then look again. Take the time
-          to look in detail and to look at the same thing from different angles,
-          with different light, long lenses and wide lenses. Then move to the
-          left a bit. You may never feel the need to leave the house again.
+          Wireframes: <a href="https://www.figma.com/design/QlNQteHVcHLBrOAsVZ4y3Y/JetsetJive-WireFrames?node-id=88-3022&t=tAWOXVHIltjMYqgn-1">https://www.figma.com/design/QlNQteHVcHLBrOAsVZ4y3Y/JetsetJive-WireFrames?node-id=88-3022&t=tAWOXVHIltjMYqgn-1</a>
         </p>
+        <img src="/img/news/wireFrameExample.png" alt="Wireframes" style={{ width: '100%', height: 'auto' }} />
       </>
     ),
   },
   {
     id: 6,
     no: "06",
-    title: "Site map",
-    text: `Web development is the most famous job in the world and it is very
-    interesting...`,
-    largeImg: "/img/news/2.jpg",
-    largeTitle: "Mobile App a new tool that enables direct video hosting",
-    poster: "HASAN ALI",
+    title: "Site Map",
+    text: `There is our app's site map.`,
+    largeImg: "/img/news/sitemap.png",
+    poster: "Chloe Chen",
     date: "09 APRIL 2021",
     descriptions: (
       <>
         <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now so we can
-          remember them when it is all over.
+          This is a map of the different pages in our app. We have a login in the upper right where users would set up their preferences and then we have a flow for each major section of our app which are deciding flights, hotels, restaurants, outfits, and a profile page.
         </p>
+        <img src="/img/news/sitemap.png" alt="Site Map" style={{ width: '100%', height: 'auto' }} />
         <p>
-          Pretend everything is new and that you haven’t seen it before, and
-          then you will be free to notice the leading lines, the places where
-          one edge meets another in delightful geometric harmony, and how the
-          ordinary things in the kitchen are transformed when the light is on or
-          off.
+          The app structure is as follows:
         </p>
-        <p>
-          The trick here is to look slowly, and then look again. Take the time
-          to look in detail and to look at the same thing from different angles,
-          with different light, long lenses and wide lenses. Then move to the
-          left a bit. You may never feel the need to leave the house again.
-        </p>
+        <ul>
+          <li><strong>Welcome and Login:</strong> Users start with a welcome screen, proceed to login, and set up their preferences including user info, dining preferences, travel preferences, fashion preferences, and credit preferences.</li>
+          <li><strong>Home:</strong> This is the main dashboard with navigation to all major sections of the app.</li>
+          <li><strong>Flight Search:</strong> Users can search for flights by selecting the date, time, and location, choosing departing and returning flights, reviewing flight details, and completing the payment.</li>
+          <li><strong>Hotel Booking:</strong> Users can search for hotels, view hotel information, and book their stay.</li>
+          <li><strong>Dining Home:</strong> Users can search for restaurants, view restaurant details, and filter options by distance, cost, and rating.</li>
+          <li><strong>E-closet Management:</strong> This includes managing outfits for trips, viewing planned outfits, and editing outfits. Users can upload images, take pictures, and manage their outfit lists.</li>
+          <li><strong>My Account:</strong> Users can manage their travel, dining, and fashion preferences from their account settings.</li>
+        </ul>
       </>
     ),
   },
