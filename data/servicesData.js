@@ -4,7 +4,7 @@ module.exports = [
     no: "01",
     title: "Ideation",
     text: `We had to come up with an idea`,
-    largeImg: "/img/news/1.jpg",
+    largeImg: "/img/news/idea.png",
     largeTitle: "We had a dream",
     poster: "",
     date: "05 June 2024",
@@ -24,7 +24,7 @@ module.exports = [
     no: "02",
     title: "Sketches",
     text: `It's easier to draw things before you build them`,
-    largeImg: "/img/news/sketchHeader.png",
+    largeImg: "/img/news/pencil.png",
     largeTitle: "Creating hand drawn sketches helped with our process",
     poster: "Chloe Chen",
     date: "05 June 2024",
@@ -52,7 +52,7 @@ module.exports = [
     no: "03",
     title: "Personas",
     text: `Who are we building this app for?`,
-    largeImg: "/img/news/persona0.png",
+    largeImg: "/img/news/people.png",
     largeTitle: "Our Persona",
     poster: "Chloe",
     date: "05 June 2024",
@@ -126,15 +126,18 @@ module.exports = [
     no: "04",
     title: "Paper Prototypes",
     text: `Paper prototypes was an interesting exercise`,
-    largeImg: "/img/news/paperPrototype.png",
+    largeImg: "/img/news/Prototype.png",
     largeTitle: "Time for arts and crafts...",
     poster: "Chloe Chen",
     date: "05 June 2024",
     descriptions: (
       <>
+      <img src="/img/news/paperPrototype.png" alt="Juliana Silva Persona" style={{ width: '100%', height: 'auto' }} />
+        <br/><br/>
        <p>
           Here are our paper prototypes which simulate how some of the main processes in our app would work. Here we made it interactive with buttons and popups to show users how our app would function. We would then receive feedback on how well our interactions are and improve them to cater more to our audience.
-    
+        </p>
+        <p>
           E-Closet: <a href="https://imgur.com/a/e-closet-t2Tm9Qh">https://imgur.com/a/e-closet-t2Tm9Qh</a>
         </p>
         <p>
@@ -152,7 +155,7 @@ module.exports = [
     no: "05",
     title: "Wireframes",
     text: `Building wireframes allowed us to better layout our application...`,
-    largeImg: "/img/news/wireFrameExample.png", // Update with correct path
+    largeImg: "/img/news/wireframe.png", // Update with correct path
     largeTitle: "Wireframes",
     poster: "Chloe Chen",
     date: "05 June 2024",
@@ -161,10 +164,12 @@ module.exports = [
         <p>
           This is the step where we had some more detailed versions of our app. We have all the different pages laid out with the general text inputs, button sizes, and the overall structure of each page. We kept things simple with using mainly different shades of black and white so that we could focus on the shape and appearance of different pages of our app.
         </p>
+        <img src="/img/news/wireFrameExample.png" alt="Wireframes" style={{ width: '100%', height: 'auto' }} />
+        <br/><br/>
         <p>
           Wireframes: <a href="https://www.figma.com/design/QlNQteHVcHLBrOAsVZ4y3Y/JetsetJive-WireFrames?node-id=88-3022&t=tAWOXVHIltjMYqgn-1">https://www.figma.com/design/QlNQteHVcHLBrOAsVZ4y3Y/JetsetJive-WireFrames?node-id=88-3022&t=tAWOXVHIltjMYqgn-1</a>
         </p>
-        <img src="/img/news/wireFrameExample.png" alt="Wireframes" style={{ width: '100%', height: 'auto' }} />
+
       </>
     ),
   },
@@ -173,7 +178,7 @@ module.exports = [
     no: "06",
     title: "Site Map",
     text: `There is our app's site map.`,
-    largeImg: "/img/news/sitemap.png",
+    largeImg: "/img/news/sitemap_icon.png",
     poster: "Chloe Chen",
     date: "09 APRIL 2021",
     descriptions: (
@@ -182,6 +187,7 @@ module.exports = [
           This is a map of the different pages in our app. We have a login in the upper right where users would set up their preferences and then we have a flow for each major section of our app which are deciding flights, hotels, restaurants, outfits, and a profile page.
         </p>
         <img src="/img/news/sitemap.png" alt="Site Map" style={{ width: '100%', height: 'auto' }} />
+        <br/><br/>
         <p>
           The app structure is as follows:
         </p>
@@ -194,41 +200,10 @@ module.exports = [
           <li><strong>E-closet Management:</strong> This includes managing outfits for trips, viewing planned outfits, and editing outfits. Users can upload images, take pictures, and manage their outfit lists.</li>
           <li><strong>My Account:</strong> Users can manage their travel, dining, and fashion preferences from their account settings.</li>
         </ul>
-      </>
-    ),
-  },
-  {
-    id: 7,
-    no: "07",
-    title: "Style Guide",
-    text: `Web development is the most famous job in the world and it is very
-    interesting...`,
-    largeImg: "/img/news/2.jpg",
-    largeTitle: "Mobile App a new tool that enables direct video hosting",
-    poster: "HASAN ALI",
-    date: "09 APRIL 2021",
-    descriptions: (
-      <>
-        <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now so we can
-          remember them when it is all over.
-        </p>
-        <p>
-          Pretend everything is new and that you haven’t seen it before, and
-          then you will be free to notice the leading lines, the places where
-          one edge meets another in delightful geometric harmony, and how the
-          ordinary things in the kitchen are transformed when the light is on or
-          off.
-        </p>
-        <p>
-          The trick here is to look slowly, and then look again. Take the time
-          to look in detail and to look at the same thing from different angles,
-          with different light, long lenses and wide lenses. Then move to the
-          left a bit. You may never feel the need to leave the house again.
-        </p>
+
+        <br/><br/>
+
+        <p>You can view the map here: <a>https://miro.com/app/board/uXjVKKX1TFc=/?share_link_id=530050363442</a></p>
       </>
     ),
   },
@@ -237,32 +212,20 @@ module.exports = [
     no: "08",
     title: "Final product",
     text: `The outcome of all our hard work`,
-    largeImg: "/img/news/2.jpg",
+    largeImg: "/img/news/final.png",
     largeTitle: "Final product",
     poster: "HASAN ALI",
     date: "09 APRIL 2021",
     descriptions: (
       <>
         <p>
-          Most photographers love to shoot the unusual, and you don’t get much
-          more unusual than These Unprecedented Times. Right now everything
-          counts as out of the ordinary. There are a number of remarkable things
-          about these lockdown days that are worth photographing now so we can
-          remember them when it is all over.
+         These are the hi-fi prototypes of our app's flight booking feature that we created to get a clearer picture of what our app will look like and how it will function. 
+         From the sketches, we can see that the flight search page has not evolved much compared to the flight review page where we added more necessary details that would be informative to our users. 
+         The flight results page has been separated into two, one for departing flights and another for returning flights. When we were doing the paper prototype, 
+         we realized that we needed to account for both the departing and returning flights and this was simply not a task we could accomplish with just one search result page. 
+         It is also important to note that across the app, we have changed our navigation bar at the bottom of the screen to allow users to switch between the services offered in our app.
         </p>
-        <p>
-          Pretend everything is new and that you haven’t seen it before, and
-          then you will be free to notice the leading lines, the places where
-          one edge meets another in delightful geometric harmony, and how the
-          ordinary things in the kitchen are transformed when the light is on or
-          off.
-        </p>
-        <p>
-          The trick here is to look slowly, and then look again. Take the time
-          to look in detail and to look at the same thing from different angles,
-          with different light, long lenses and wide lenses. Then move to the
-          left a bit. You may never feel the need to leave the house again.
-        </p>
+       
       </>
     ),
   },

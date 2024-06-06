@@ -9,24 +9,24 @@ const Team = () => {
       <div className="tokyo_tm_home">
         <div className="home_content">
           <div className="avatar">
-            <div
+           {/* <div
               className="image avatar_img"
               style={{
                 backgroundImage: "url(/img/slider/1.jpg)",
               }}
-            ></div>
+            ></div>*/}
             {/* END AVATAR IMAGE */}
           </div>
           {/* END AVATAR */}
           <div className="details">
             <h3 className="name">Ninn</h3>
             <h4 className="typer">
-              <p>Find </p>
+              <p>Is </p>
               <ReactTyped
                 strings={[
-                  "Flights.",
-                  "Restaurants.",
-                  "Outfits.",
+                  "Fun.",
+                  "Happy.",
+                  "Smart.",
                 ]}
                 loop
                 typeSpeed={80}
@@ -34,7 +34,7 @@ const Team = () => {
             </h4>
 
             <p className="job">
-              Jetset Jive - Your all-in-one travel app for flights, hotels, food, and fashion.
+              Jetset Jive - Co-Founder and Designer
             </p>
             {/* END JOB */}
           </div>
@@ -47,24 +47,24 @@ const Team = () => {
        <div className="tokyo_tm_home">
         <div className="home_content">
           <div className="avatar">
-            <div
+            {/*<div
               className="image avatar_img"
               style={{
                 backgroundImage: "url(/img/slider/1.jpg)",
               }}
-            ></div>
+            ></div>*/}
             {/* END AVATAR IMAGE */}
           </div>
           {/* END AVATAR */}
           <div className="details">
             <h3 className="name">Sean</h3>
             <h4 className="typer">
-              <p>Find </p>
+              <p>Is </p>
               <ReactTyped
                 strings={[
-                  "Flights.",
-                  "Restaurants.",
-                  "Outfits.",
+                  "Calm.",
+                  "Interesting.",
+                  "Intelligent.",
                 ]}
                 loop
                 typeSpeed={80}
@@ -72,7 +72,7 @@ const Team = () => {
             </h4>
 
             <p className="job">
-              Jetset Jive - Your all-in-one travel app for flights, hotels, food, and fashion.
+              Jetset Jive - Co-Founder and Designer
             </p>
             {/* END JOB */}
           </div>
@@ -85,24 +85,24 @@ const Team = () => {
        <div className="tokyo_tm_home">
         <div className="home_content">
           <div className="avatar">
-            <div
+            {/*<div
               className="image avatar_img"
               style={{
                 backgroundImage: "url(/img/slider/1.jpg)",
               }}
-            ></div>
+            ></div>*/}
             {/* END AVATAR IMAGE */}
           </div>
           {/* END AVATAR */}
           <div className="details">
             <h3 className="name">Blaine</h3>
             <h4 className="typer">
-              <p>Find </p>
+              <p></p>
               <ReactTyped
                 strings={[
-                  "Flights.",
-                  "Restaurants.",
-                  "Outfits.",
+                  "Likes cats.",
+                  "Class of 2024",
+                  "Traveler.",
                 ]}
                 loop
                 typeSpeed={80}
@@ -110,7 +110,7 @@ const Team = () => {
             </h4>
 
             <p className="job">
-              Blaine - Software engineer and cat afficienado. 
+              Blaine - Software engineer and cat afficienado - Jetset Jive Co-Founder and Designer. 
             </p>
             {/* END JOB */}
           </div>
@@ -123,24 +123,24 @@ const Team = () => {
        <div className="tokyo_tm_home">
         <div className="home_content">
           <div className="avatar">
-            <div
+            {/*<div
               className="image avatar_img"
               style={{
                 backgroundImage: "url(/img/slider/1.jpg)",
               }}
-            ></div>
+            ></div>*/}
             {/* END AVATAR IMAGE */}
           </div>
           {/* END AVATAR */}
           <div className="details">
             <h3 className="name">Chloe</h3>
             <h4 className="typer">
-              <p>Find </p>
+              <p>Is </p>
               <ReactTyped
                 strings={[
-                  "Flights.",
-                  "Restaurants.",
-                  "Outfits.",
+                  "Stylish.",
+                  "Night Owl.",
+                  "Badminton junkie.",
                 ]}
                 loop
                 typeSpeed={80}
@@ -148,7 +148,7 @@ const Team = () => {
             </h4>
 
             <p className="job">
-              Jetset Jive - Your all-in-one travel app for flights, hotels, food, and fashion.
+              Jetset Jive - Co-Founder and Designer.
             </p>
             {/* END JOB */}
           </div>
