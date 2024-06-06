@@ -15,7 +15,7 @@ const index = () => {
             <div className="title_flex">
               <div className="left">
                 <span>The process</span>
-                <h3>What we did</h3>
+                <h3>What we did and how we did it...</h3>
               </div>
             </div>
           </div>
